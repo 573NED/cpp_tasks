@@ -2,7 +2,7 @@
 
 using namespace std;
 int main() {
-    int n, k, i;
+    int n, k, i, t;
     cout << "введите количество чисел : ";
     cin >> n;
     int a[n]; // обозначение массива чисел
@@ -13,7 +13,6 @@ int main() {
     cin >> k;
 
     for(int i = 0; i <= k; i++){
-        int t;
         t = a[n-1];
         for (int j = n-2; j>=0; j--)
             a[j+1] = a[j];

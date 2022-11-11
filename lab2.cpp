@@ -12,9 +12,9 @@ int main() {
         cin >> x;
         cout << "введите y[" << i << "] = ";
         cin >> y;
-            t = sqrt(x*x+y*y);
-            if (t > min)
-                min = t;
+        t = sqrt(x*x+y*y);
+        if (t > min)
+            min = t;
     }
     cout << "радиус наименьшего круга  = " << min;
 }
